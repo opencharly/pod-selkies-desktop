@@ -18,11 +18,11 @@ selkies-desktop:
             built image, and the labwc desktop daemons reach a supervised RUNNING state
             at deploy.
         candy:
-            - selkies-core
-            - labwc
-            - waybar-labwc
-            - swaync
-            - pavucontrol
+            - '@github.com/opencharly/pod-selkies-core:v2026.237.808'
+            - '@github.com/opencharly/pod-labwc:v2026.237.428'
+            - '@github.com/opencharly/pod-waybar-labwc:v2026.237.0808'
+            - '@github.com/opencharly/pod-swaync:v2026.237.458'
+            - '@github.com/opencharly/layer-pavucontrol:v2026.237.430'
         plan:
             - check: the labwc nested Wayland compositor — this flavor's defining compositor — is installed
               file:
