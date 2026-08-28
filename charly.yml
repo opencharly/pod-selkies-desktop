@@ -18,11 +18,15 @@ selkies-desktop:
             built image, and the labwc desktop daemons reach a supervised RUNNING state
             at deploy.
         candy:
-            - selkies-core
-            - labwc
-            - waybar-labwc
-            - swaync
-            - pavucontrol
+            # Pinned refs, not bare names. These five candies became standalone repos in
+            # the candy cutover, so a bare name resolves ONLY inside a project that happens
+            # to have them in scan range — every remote consumer (distro-cachyos composing
+            # this candy for the selkies boxes) failed with `unknown candy "selkies-core"`.
+            - '@github.com/opencharly/pod-selkies-core:v2026.240.2104'
+            - '@github.com/opencharly/pod-labwc:v2026.240.2106'
+            - '@github.com/opencharly/pod-waybar-labwc:v2026.240.0122'
+            - '@github.com/opencharly/pod-swaync:v2026.239.1633'
+            - '@github.com/opencharly/layer-pavucontrol:v2026.239.1631'
         plan:
             - check: the labwc nested Wayland compositor — this flavor's defining compositor — is installed
               file:
