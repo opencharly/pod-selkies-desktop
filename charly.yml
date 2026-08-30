@@ -1,7 +1,7 @@
-version: 2026.232.0520
+version: 2026.240.1943
 selkies-desktop:
     candy:
-        version: 2026.152.2006
+        version: 2026.242.1250
         description: |
             A browser-accessible labwc Selkies streaming desktop — the shared selkies-core spine plus the labwc compositor and its panel, notifier, and audio UI.
             The labwc edition of the selkies streaming desktop (the original, proven
@@ -22,7 +22,7 @@ selkies-desktop:
             # the candy cutover, so a bare name resolves ONLY inside a project that happens
             # to have them in scan range — every remote consumer (distro-cachyos composing
             # this candy for the selkies boxes) failed with `unknown candy "selkies-core"`.
-            - '@github.com/opencharly/pod-selkies-core:v2026.240.2344'
+            - '@github.com/opencharly/pod-selkies-core:v2026.242.1242'
             - '@github.com/opencharly/pod-labwc:v2026.240.2106'
             - '@github.com/opencharly/pod-waybar-labwc:v2026.240.0122'
             - '@github.com/opencharly/pod-swaync:v2026.239.1633'
