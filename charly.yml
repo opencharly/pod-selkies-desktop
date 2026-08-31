@@ -22,7 +22,7 @@ selkies-desktop:
             # the candy cutover, so a bare name resolves ONLY inside a project that happens
             # to have them in scan range — every remote consumer (distro-cachyos composing
             # this candy for the selkies boxes) failed with `unknown candy "selkies-core"`.
-            - '@github.com/opencharly/pod-selkies-core:v2026.243.1051'
+            - '@github.com/opencharly/pod-selkies-core:v2026.243.1744'
             - '@github.com/opencharly/pod-labwc:v2026.240.2106'
             - '@github.com/opencharly/pod-waybar-labwc:v2026.243.0508'
             - '@github.com/opencharly/pod-swaync:v2026.239.1633'
