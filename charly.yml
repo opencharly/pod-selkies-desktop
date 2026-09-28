@@ -1,7 +1,5 @@
-version: 2026.240.1943
 selkies-desktop:
     candy:
-        version: 2026.243.1038
         description: |
             A browser-accessible labwc Selkies streaming desktop — the shared selkies-core spine plus the labwc compositor and its panel, notifier, and audio UI.
             The labwc edition of the selkies streaming desktop (the original, proven
