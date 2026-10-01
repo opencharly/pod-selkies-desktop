@@ -20,10 +20,10 @@ selkies-desktop:
             # the candy cutover, so a bare name resolves ONLY inside a project that happens
             # to have them in scan range — every remote consumer (distro-cachyos composing
             # this candy for the selkies boxes) failed with `unknown candy "selkies-core"`.
-            - '@github.com/opencharly/pod-selkies-core:v2026.274.0812'
-            - '@github.com/opencharly/pod-labwc:v2026.274.0657'
-            - '@github.com/opencharly/pod-waybar-labwc:v2026.274.0650'
-            - '@github.com/opencharly/pod-swaync:v2026.274.0650'
+            - '@github.com/opencharly/pod-selkies-core:v2026.274.0910'
+            - '@github.com/opencharly/pod-labwc:v2026.274.0811'
+            - '@github.com/opencharly/pod-waybar-labwc:v2026.274.0806'
+            - '@github.com/opencharly/pod-swaync:v2026.274.0806'
             - '@github.com/opencharly/layer-pavucontrol:v2026.274.0647'
         plan:
             - check: the labwc nested Wayland compositor — this flavor's defining compositor — is installed
