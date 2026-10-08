@@ -3,8 +3,8 @@ selkies-desktop:
         description: |
             A browser-accessible labwc Selkies streaming desktop — the shared selkies-core spine plus the labwc compositor and its panel, notifier, and audio UI.
             The labwc edition of the selkies streaming desktop (the original, proven
-            flavor — kept by name because openclaw-desktop composes this layer and
-            android-emulator chains through the same-named image). Composes the shared
+            flavor — kept by name because the android-emulator chain uses the
+            same-named image). Composes the shared
             selkies-core (pixelflux WebRTC transport + Chrome/CDP + wl-* tooling +
             fonts + a11y + terminal-recording + sshd) with the labwc nested compositor
             and its labwc-specific desktop UI: waybar-labwc (top panel), swaync
